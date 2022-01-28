@@ -1,0 +1,5 @@
+.banner5{position: relative;}
+.banner5 h1{color: #ffffff;}
+.banner5 p {
+    color: hsla(0,0%,100%,.7) !important;
+  }

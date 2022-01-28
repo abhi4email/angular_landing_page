@@ -1,0 +1,9 @@
+.fixed{
+    background: #fefefe;
+    box-shadow: 0 6px 15px 0 rgba(0,0,0,.15);
+    width: 100%;
+    top: 0px;
+    transition: 0.2s li;
+    position: fixed !important;
+    z-index: 9999;
+}
