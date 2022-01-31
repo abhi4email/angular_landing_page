@@ -3,27 +3,28 @@
     <div class="row justify-content-center">
         <div class="col-lg-8">
             <div class="text-center">
-                <h5>SERVICES</h5>
-                <h3>Services We Provide</h3>
-                <p>It will be as simple as occidental in fact, it will be Occidental.</p>
+                <h5>{{title}}</h5>
+                <h3>{{subTitle}}</h3>
+                <p>{{subTitlep}}</p>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-xl-4 col-sm-6">
+      
+        <div *ngFor ="let servicelist of serviceItem" class="col-xl-4 col-sm-6">
             <div class="text-center p-4 mt-3">
                 <div class="circle-md mx-auto mb-2">
-                    <span class="circle-round-c rounded-circle bg-soft-primary">
-                        <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
+                    <span class="circle-round-c rounded-circle bg-soft-primary">                     
+                        <i [class]="servicelist.icon" aria-hidden="true"></i>
                     </span>
                 </div>
-                    <h5>Bootstrap UI based</h5>
-                    <p>To an English person, it will seem like English as skeptical.</p>
+                    <h5>{{servicelist.stitle}}</h5>
+                    <p>{{servicelist.sContent}}</p>
                 
             </div>
         </div>
         
-        <div class="col-xl-4 col-sm-6">
+        <!-- <div class="col-xl-4 col-sm-6">
             <div class="text-center p-4 mt-3">
                 <div class="circle-md mx-auto mb-2">
                     <span class="circle-round-c rounded-circle bg-soft-primary">
@@ -34,9 +35,9 @@
                     <p>If several languages coalesce, the grammar of the language.</p>
                 
             </div>
-        </div>
+        </div> -->
         
-        <div class="col-xl-4 col-sm-6">
+        <!-- <div class="col-xl-4 col-sm-6">
             <div class="text-center p-4 mt-3">
                 <div class="circle-md mx-auto mb-2">
                     <span class="circle-round-c rounded-circle bg-soft-primary">
@@ -47,9 +48,9 @@
                     <p>The languages only differ in their grammar their pronunciation</p>
                 
             </div>
-        </div>
+        </div> -->
         
-        <div class="col-xl-4 col-sm-6">
+        <!-- <div class="col-xl-4 col-sm-6">
             <div class="text-center p-4 mt-3">
                 <div class="circle-md mx-auto mb-4">
                     <span class="circle-round-c rounded-circle bg-soft-primary">
@@ -60,8 +61,8 @@
                     <p>Everyone realizes why a new common would be desirable.</p>
                 
             </div>
-        </div>
-        <div class="col-xl-4 col-sm-6">
+        </div> -->
+        <!-- <div class="col-xl-4 col-sm-6">
             <div class="text-center p-4 mt-3">
                 <div class="circle-md mx-auto mb-2">
                     <span class="circle-round-c rounded-circle bg-soft-primary">
@@ -72,8 +73,8 @@
                     <p>To achieve this, it would be necessary to have uniform.</p>
                 
             </div>
-        </div>
-        <div class="col-xl-4 col-sm-6">
+        </div> -->
+        <!-- <div class="col-xl-4 col-sm-6">
             <div class="text-center p-4 mt-3">
                 <div class="circle-md mx-auto mb-2">
                     <span class="circle-round-c rounded-circle bg-soft-primary">
@@ -84,7 +85,7 @@
                     <p>Their separate existence is a myth. For science, music, etc.</p>
                 
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="row">
         <div class="col-md-12">

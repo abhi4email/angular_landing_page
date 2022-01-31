@@ -7,8 +7,38 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
   styleUrls: ['./client-carousel.component.css']
 })
 export class ClientCarouselComponent implements OnInit {
-
   constructor() { }
+  testimonialList: Array<any> =[
+    {
+    testiContent:'To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is languages are members',
+    avtaImg:'../../assets/images/c-1.jpg',
+    avtarName:'Jon Chon',
+    relation:'PenStdio User',
+    rating:'fa fa-star',
+    },
+    {
+      testiContent:'To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is languages are members',
+      avtaImg:'../../assets/images/c-2.jpg',
+      avtarName:'Emma',
+      relation:'PenStdio User',
+      rating:'fa fa-star',
+      },
+      {
+        testiContent:'To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is languages are members',
+        avtaImg:'../../assets/images/c-3.jpg',
+        avtarName:'Oliver',
+        relation:'PenStdio User',
+        rating:'fa fa-star',
+        },
+        {
+          testiContent:'To an English person, it will seem like simplified English, as a skeptical Cambridge friend of mine told me what Occidental is languages are members',
+          avtaImg:'../../assets/images/c-4.jpg',
+          avtarName:'Ava',
+          relation:'PenStdio User',
+          rating:'fa fa-star',
+          },
+    
+  ]
 
   ngOnInit(): void {
   }
